@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+   <body>
+
+    <a href="/">HOME</a>
+    <a href="/addstudent">Add New Student</a>
+    <a href="/list">List Student</a>
+    <br><hr>
+
+    {{ msg }}
+
+      <table border = 1>
+         <thead>
+            <td>Name</td>
+            <td>Address</td>
+            <td>city</td>
+            <td>Pincode</td>
+            <td></td>
+         </thead>
+         {% for row in students %}
+            <tr>
+               <td>{{row["NAME"]}}</td>
+               <td> {{ row["ADDRESS"]}}</td>
+               <td>{{row["CITY"]}}</td>
+               <td>{{row['PIN']}}</td>	
+               <td><a href="/delete/{{row['NAME']}}">Delete</a></td>	
+            </tr>
+         {% endfor %}
+      </table>
+     
+
+   </body>
+</html>
