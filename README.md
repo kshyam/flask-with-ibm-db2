@@ -1,7 +1,5 @@
 # flask-with-ibm-db2
 
-# flask-with-ibm-cloud-object-storage
-
 Working with IBM Db2 service 
 
 Step 1 : install Python SDK 
@@ -18,7 +16,7 @@ Step 2 : Clone or download this flask repo
 git clone git@github.com:kshyam/flask-with-ibm-db2.git
 ```
 
-Download Zip - https://github.com/kshyam/flask-with-ibm-cloud-object-storage/archive/refs/heads/main.zip
+Download Zip - https://github.com/kshyam/flask-with-ibm-db2/archive/refs/heads/main.zip
 
 Stpe 3 : Run flask app in debug mode 
 
